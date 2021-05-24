@@ -19,10 +19,11 @@ header nav{
     z-index: 100;
 }
 
-header video{
+video{
     width: 100%;
     z-index: -1;
 }
+
 
 .footer{
     color: white;
