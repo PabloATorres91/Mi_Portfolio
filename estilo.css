@@ -77,6 +77,54 @@ p{
     margin: 0;
 }
 
+
+.Experience{
+    background-image: url(ExperienceBackground.jpg);
+    background-repeat: no-repeat;
+    padding: 60px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Experience div{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(400px, auto);
+    padding-bottom: 35px;
+}
+
+.Experience img{
+    top: 0;
+    width: 260px;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+.Experience container{
+    margin: 1.8rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.Experience container img{
+    width: 160px;
+}
+
+.Experience container p{
+    color: black;
+}
+
+
 .footer{
     color: white;
     background-color: #1b2127;
